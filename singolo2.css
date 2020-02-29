@@ -28,12 +28,14 @@
 
 body {
     width: 1020px;
+    height: 1610px;
     margin: 0px auto;
 
 }
     
 .portfolio-background {
     background-color: #2D303A;
+    height: 870px;
 }
 
 .margin {
@@ -41,21 +43,31 @@ body {
 }
 
 h1 {
+    display: inline-block;
     font-family: "Lato-Black";
     font-size: 30px;
     color: #666D89;
+    margin-top: 57px;
+    margin-left: 40px;
 }
 
 h4 {
     font-family: "Lato-Light";
     font-size: 18px;
     color: #666D89;
+    margin-left: 40px;
+    margin-top: 22px;
+    margin-bottom: 2px;
+    line-height: 26px;
 }
 
 h6 {
     font-family: "Lato-Regular";
     font-size: 12px;
     color: #666D89;
+    margin-left: 40px;
+    margin-top: 11px;
+    margin-bottom: 1px;
 }
 
 p {
@@ -64,6 +76,8 @@ p {
     border-radius: 4px;
     margin: 3px;
     padding: 3px;
+    padding-left: 6px;
+    padding-right: 5px;
 }
 
 p:hover {
@@ -73,10 +87,14 @@ p:hover {
 
 .portfolio {
     display: grid;
+    /* display: inline-block; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-row-gap: 20px;
     align-self: center;
+    margin-left: 40px;
+    margin-top: 14px;
+    margin-right: 20px;
 }
 
 .portfolio-underline {
@@ -89,15 +107,21 @@ p:hover {
 }
 
 .about-header {
+    display: inline-block;
     font-family: "Lato-Black";
     font-size: 30px;
     color: #666D89;
+    margin-left: 40px;
+    margin-top: 50px;
 }
 
 .three-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-self: center;
+    margin-left: 40px;
+    margin-top: 49px;
+    margin-right: 20px;
 }
 
 .name {
